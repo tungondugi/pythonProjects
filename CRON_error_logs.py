@@ -1,3 +1,4 @@
+"""Written by Nognut"""
 #!/usr/local/bin/python3.8
 """
     This program will read the CRON errors from sample.log files and will make a new report.log file
