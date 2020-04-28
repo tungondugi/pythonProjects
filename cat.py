@@ -5,7 +5,7 @@ import sys
 def cat(filename):
     with open(filename, 'r') as file:
         for e in file.readlines():
-            print(e)
+            print(e.rstrip())
 
 if __name__ == "__main__":
     filename = sys.argv[1]
