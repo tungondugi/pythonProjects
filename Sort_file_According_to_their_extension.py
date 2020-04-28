@@ -1,6 +1,5 @@
-"""
-    Written by Nognut
-"""
+"""Written by Nognut"""
+
 """This piece of code will move the files into their respective Directories."""
 #importing the required modules
 import os
