@@ -36,7 +36,7 @@ def git_status():
 """commit function"""
 def commit():
     cmt_message = " "
-    inputs = input("Enter Branch Name: ").split(' ')
+    inputs = input("Enter commit message: ").split(' ')
     for i in range(len(inputs)):
         cmt_message += inputs[i]
     cmd = subprocess.call(f"git commit -m {cmt_message}", shell=True)
